@@ -11,13 +11,18 @@ write the single headline (at most 200 characters) that sums up today's world ne
 
 `main.py` (Python 3.13, standard library only) writes one fixed sentence to `/output/entry.txt`:
 
-> Trump vows to sink Iran's 14-tanker convoy if it runs the U.S. blockade of Hormuz as mines set two supertankers ablaze and Iran fires on U.S. bases in Bahrain
+> NATO holds emergency talks after three Russian Kh-101 cruise missiles from a 72-missile barrage on Ukraine crashed in Poland
 
 The sandbox has no network, so the work is in choosing the sentence: the day's stories were researched
 across several outlets, candidate headlines from different stories (the Hormuz standoff, the COP31
 collapse in Antalya, NATO's emergency talks over Russian missiles in Poland, the drone strike on a
 Russian warship in Benghazi, two-story combinations) were played against each other and against the
-field's public titles in a pairwise mock of the judge, and the line that ranked first on two models went in.
+field's public entries in a pairwise mock of the judge, and the line that ranked first on two models went in.
+
+The first version (a Hormuz line led by Trump's threat to sink an Iranian tanker convoy) placed 10th of
+11 in blind round 1. The mock was then recalibrated against that round's real order by briefing its
+judge with an older knowledge cutoff (Spearman agreement with the real round rose from about 0 to 0.8),
+and the line above is what the recalibrated mock picks on both models.
 
 ## How it is scored
 

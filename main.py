@@ -2,8 +2,8 @@
 import os
 
 HEADLINE = (
-    "Trump vows to sink Iran's 14-tanker convoy if it runs the U.S. blockade of Hormuz "
-    "as mines set two supertankers ablaze and Iran fires on U.S. bases in Bahrain"
+    "NATO holds emergency talks after three Russian Kh-101 cruise missiles "
+    "from a 72-missile barrage on Ukraine crashed in Poland"
 )
 
 
