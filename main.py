@@ -2,8 +2,8 @@
 import os
 
 HEADLINE = (
-    "NATO holds emergency talks after three Russian Kh-101 cruise missiles "
-    "from a 72-missile barrage on Ukraine crashed in Poland"
+    "Russian drone kills 11 in a Dymer apartment block near Kyiv as rescuers "
+    "pull a 7-year-old boy alive after 14 hours under the rubble"
 )
 
 
